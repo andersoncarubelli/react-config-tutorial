@@ -1,0 +1,51 @@
+Arguments: 
+  /Users/andersoncarubelli/.nvm/versions/node/v10.12.0/bin/node /usr/local/Cellar/yarn/1.13.0/libexec/bin/yarn.js global dir --json
+
+PATH: 
+  /Users/andersoncarubelli/.rbenv/shims:/Users/andersoncarubelli/.sdkman/candidates/java/current/bin:/Users/andersoncarubelli/.nvm/versions/node/v10.12.0/bin:/Users/andersoncarubelli/Library/Caches/antibody/https-COLON--SLASH--SLASH-github.com-SLASH-caarlos0-SLASH-zsh-open-pr:/Users/andersoncarubelli/Library/Caches/antibody/https-COLON--SLASH--SLASH-github.com-SLASH-caarlos0-SLASH-zsh-git-sync:/Users/andersoncarubelli/Library/Caches/antibody/https-COLON--SLASH--SLASH-github.com-SLASH-caarlos0-SLASH-zsh-git-fetch-merge:/Users/andersoncarubelli/Library/Caches/antibody/https-COLON--SLASH--SLASH-github.com-SLASH-caarlos0-SLASH-ports:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Users/andersoncarubelli/Code/Go/bin:/Users/andersoncarubelli/.rbenv/bin:/Users/andersoncarubelli/.dotfiles/bin:/Users/andersoncarubelli/.bin:/Users/andersoncarubelli/.rvm/bin
+
+Yarn version: 
+  1.13.0
+
+Node version: 
+  10.12.0
+
+Platform: 
+  darwin x64
+
+Trace: 
+  SyntaxError: /Users/andersoncarubelli/Development/projects/learning/react-config-tutorial/package.json: Unexpected token } in JSON at position 173
+      at JSON.parse (<anonymous>)
+      at /usr/local/Cellar/yarn/1.13.0/libexec/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/local/Cellar/yarn/1.13.0/libexec/lib/cli.js:304:30)
+      at /usr/local/Cellar/yarn/1.13.0/libexec/lib/cli.js:315:13
+
+npm manifest: 
+  {
+    "name": "react-config-tutorial",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+      "start": "webpack-dev-server --mode development",
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "dependencies": {
+      "react": "^16.8.4",
+      "react-dom": "^16.8.4"
+    },
+    "devDependencies": {
+      "webpack": "^4.29.6",
+      "webpack-cli": "^3.2.3",
+      "webpack-dev-server": "^3.2.1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
